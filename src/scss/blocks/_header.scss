@@ -1,0 +1,56 @@
+.header{
+    min-height: 110px;
+    &__main{
+        padding: 16px 0 18px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 184px;
+        &_link{
+            width: 184px;
+            text-decoration: none;
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_text{
+            color: $neutral-gray;
+            text-align: center;
+            font-family: 'League Spartan';
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-top: 7px;
+        }
+    }
+
+    &__menu{
+        width: 635px;
+    }
+    &__items{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_link{
+            text-decoration: none;
+            color: $neutral-gray;
+            
+            li{
+                font-size: 18px;
+                font-weight: 400;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 180px;
+    }
+}

@@ -1,5 +1,18 @@
 *{
-    padding: 0;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    font-family: 'Montserrat',serif;
+    padding: 0;
+    box-sizing: border-box;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+@import "base/variables";
+@import "base/mixins";
+
+@import "blocks/promo";
+@import "blocks/header";
+
+@import "blocks/top";
